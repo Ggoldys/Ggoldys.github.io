@@ -1,0 +1,94 @@
+.chat {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  background-color: #ffc800;
+  transition: 0.1s;
+  cursor: pointer;
+  position: fixed; 
+  bottom: 80px;
+  right: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  object-fit: contain;
+  padding: 15px;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.chat:hover {
+  transform: scale(1.1);
+}
+
+.chat_m {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    width: 40px;
+    height: 40px;
+}
+
+#chatWindow {
+  width: 320px;
+  height: 400px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  background-color: white;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000; 
+  display: none; 
+}
+
+#chatWindow {
+  background-color: #fff3e0; 
+  border: 1px solid #ff9800; 
+}
+
+.card-header {
+  background-color: #ff9800; 
+  color: white; 
+}
+
+.card-body {
+  background-color: #ffe0b2; 
+  color: #333; 
+}
+
+.card-footer {
+  background-color: #ffcc80; 
+}
+
+.btn-outline-danger {
+  background-color: #ff5722; 
+  border-color: #ff5722;
+  color: white;
+}
+
+.btn-outline-danger:hover {
+  background-color: #e64a19; 
+  border-color: #e64a19;
+  color: white;
+}
+
+.close {
+  color: white;
+}
+
+.modal-button {
+  display: none;
+  position: absolute;
+  top: 10px;
+  left: 0px;
+  width: 35px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.cart_product:hover .modal-button {
+  display: block; 
+}

@@ -1,0 +1,60 @@
+.items .pagination {
+	justify-content: center;
+	align-content: center;
+	gap: 16px;
+}
+
+.items .count,
+.items .size { 
+	align-content: center;
+	justify-content: left;
+	padding-left: 15px;
+	gap: 10px;
+}
+
+.items .pagination button {
+	font-size: 16px;
+	line-height: 14px;
+	gap: 2px
+}
+
+.items .pagination a:hover,
+.items .count a:hover,
+.items .size a:hover,
+.breadcrumb li:hover
+{
+	color: #F0A410;
+}
+
+.items .pagination a,
+.items .count a,
+.items .size a,
+.breadcrumb li
+{
+	cursor: pointer; 
+}
+
+.items .pagination a.active,
+.items .count a.active,
+.items .size a.active
+{
+	font-weight: bold;
+	color: #F0A410;
+	pointer-events: none;
+}
+
+.items .pagination a.disabled
+{
+	color: gray;
+	pointer-events: none;
+}
+
+.items .pagination a svg {
+	width: 20px;
+	height: 20px;
+}
+
+.breadcrumb
+{
+	padding-left: 15px;
+}
